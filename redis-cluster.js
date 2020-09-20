@@ -1,3 +1,5 @@
+
+var RedisCluster = require('./index.js').poorManClusterClient();
 var RedisCluster = require('redis-cluster').poorMansClusterClient();
 var assert = require('assert');
 
